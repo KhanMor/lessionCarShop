@@ -3,6 +3,8 @@ package datamanager;
 import models.Car;
 import models.Client;
 import models.Order;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 
 import java.io.*;
 import java.util.Collection;
@@ -14,7 +16,12 @@ import java.util.Map;
  * Created by sa on 08.02.17.
  */
 public class DataManager {
+    private static final Logger logger = Logger.getLogger(DataManager.class);
+    static {
+        PropertyConfigurator.configure("src/resources/log4j.xml");
+    }
     public static void serialize(Collection<? extends Serializable> list, String fileName){
+        fileName="";
         try (FileOutputStream fos = new FileOutputStream(fileName);
              ObjectOutputStream oos = new ObjectOutputStream(fos)){
             for (Serializable serializable:
@@ -23,9 +30,9 @@ public class DataManager {
             }
 
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            logger.error("Serialize Exception " + e.getMessage());
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error("Serialize Exception " + e.getMessage());
         }
     }
 
@@ -37,9 +44,9 @@ public class DataManager {
             oos.writeObject(map);
 
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            logger.error("Serialize Exception " + e.getMessage());
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error("Serialize Exception " + e.getMessage());
         }
     }
 
@@ -52,11 +59,11 @@ public class DataManager {
             collection = (HashMap<Order, Client>)ois.readObject();
 
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            logger.error("Serialize Exception " + e.getMessage());
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error("Serialize Exception " + e.getMessage());
         } catch (ClassNotFoundException e) {
-            e.printStackTrace();
+            logger.error("Serialize Exception " + e.getMessage());
         }
     }
 
@@ -71,11 +78,11 @@ public class DataManager {
             }
 
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            logger.error("Serialize Exception " + e.getMessage());
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error("Serialize Exception " + e.getMessage());
         } catch (ClassNotFoundException e) {
-            e.printStackTrace();
+            logger.error("Serialize Exception " + e.getMessage());
         }
     }
 
@@ -90,11 +97,11 @@ public class DataManager {
             }
 
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            logger.error("Serialize Exception " + e.getMessage());
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error("Serialize Exception " + e.getMessage());
         } catch (ClassNotFoundException e) {
-            e.printStackTrace();
+            logger.error("Serialize Exception " + e.getMessage());
         }
     }
 }

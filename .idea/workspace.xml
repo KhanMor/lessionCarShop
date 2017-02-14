@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8d969d1-938a-4ae4-a2f5-b708428d531f" name="Default" comment="" />
+    <list default="true" id="b8d969d1-938a-4ae4-a2f5-b708428d531f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CarShop/StoreTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/datamanager/DataManagerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lession03.iml" afterPath="$PROJECT_DIR$/Lession03.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fileCars.txt" afterPath="$PROJECT_DIR$/fileCars.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fileClients.txt" afterPath="$PROJECT_DIR$/fileClients.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fileContracts.txt" afterPath="$PROJECT_DIR$/fileContracts.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CarShop/Store.java" afterPath="$PROJECT_DIR$/src/CarShop/Store.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/datamanager/DataManager.java" afterPath="$PROJECT_DIR$/src/datamanager/DataManager.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,24 +29,66 @@
     <favorites_list name="Lession03" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="136">
+              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyAppender.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/logger/MyAppender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="121" column="33" lean-forward="true" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#947#948#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
+                <element signature="e#1506#1507#0" expanded="true" />
+                <element signature="e#1541#1542#0" expanded="true" />
+                <element signature="e#1597#1598#0" expanded="true" />
+                <element signature="e#1645#1646#0" expanded="true" />
+                <element signature="e#1683#1684#0" expanded="true" />
+                <element signature="e#1717#1718#0" expanded="true" />
+                <element signature="e#1771#1772#0" expanded="true" />
+                <element signature="e#1817#1818#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyLogLayout.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/logger/MyLogLayout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/datamanager/DataManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+            <state relative-caret-position="17">
+              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,97 +96,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PairForMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datamanager/PairForMap.java">
+      <file leaf-file-name="log4j.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/log4j.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-              <folding>
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-              <folding>
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#783#784#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#849#850#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#986#987#0" expanded="true" />
-                <element signature="e#1015#1016#0" expanded="true" />
-                <element signature="e#1059#1060#0" expanded="true" />
-                <element signature="e#1095#1096#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-              <folding>
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-405">
-              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#929#930#0" expanded="true" />
-                <element signature="e#988#989#0" expanded="true" />
-                <element signature="e#1553#1554#0" expanded="true" />
-                <element signature="e#1583#1584#0" expanded="true" />
-                <element signature="e#1610#1611#0" expanded="true" />
-                <element signature="e#1636#1637#0" expanded="true" />
-                <element signature="e#1671#1672#0" expanded="true" />
-                <element signature="e#1701#1702#0" expanded="true" />
-                <element signature="e#1737#1738#0" expanded="true" />
-                <element signature="e#1771#1772#0" expanded="true" />
-                <element signature="e#1823#1824#0" expanded="true" />
-                <element signature="e#1869#1870#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -141,8 +109,8 @@
       <file leaf-file-name="Store.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CarShop/Store.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+            <state relative-caret-position="176">
+              <caret line="24" column="66" lean-forward="true" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,9 +123,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>logger</find>
+      <find>git</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -167,23 +145,62 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/models/Order.java" />
         <option value="$PROJECT_DIR$/src/models/Car.java" />
         <option value="$PROJECT_DIR$/src/datamanager/DataManeger.java" />
         <option value="$PROJECT_DIR$/src/models/Client.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/datamanager/SerializableEntry.java" />
         <option value="$PROJECT_DIR$/src/datamanager/PairForMap.java" />
-        <option value="$PROJECT_DIR$/src/CarShop/Store.java" />
+        <option value="$PROJECT_DIR$/src/CarShop/CarNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/models/Order.java" />
+        <option value="$PROJECT_DIR$/src/CarShop/StoreTest.java" />
+        <option value="$PROJECT_DIR$/src/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/datamanager/DataManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/resources/log4j.xml" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/datamanager/DataManager.java" />
+        <option value="$PROJECT_DIR$/src/CarShop/Store.java" />
+        <option value="$PROJECT_DIR$/src/logger/MyLogLayout.java" />
+        <option value="$PROJECT_DIR$/log.txt" />
+        <option value="$PROJECT_DIR$/src/resources/log4j.xml" />
+        <option value="$PROJECT_DIR$/src/logger/MyAppender.java" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1301" />
-    <option name="height" value="772" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>UnusedAssignment</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -200,95 +217,50 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Lession03" />
+              <option name="myItemId" value="lessionCarShop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Lession03" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lession03" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lession03" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lession03" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lession03" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lession03" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lession03" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datamanager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lession03" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lession03" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CarShop" />
+              <option name="myItemId" value="lessionCarShop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Mordr/IdeaProjects/lessionCarShop/build.gradle" />
+    <property name="last_opened_file_path" value="D:/DOWNLOAD/maven libs/mail-1.4.7.jar!/" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="datamanager" />
+      <recent name="CarShop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mordr\IdeaProjects\lessionCarShop\src" />
+      <recent name="C:\Users\Mordr\IdeaProjects\lessionCarShop\resources" />
+      <recent name="C:\Users\Mordr\IdeaProjects\lessionCarShop" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="CarShop" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.main">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -537,44 +509,46 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39940387" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33387887" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33878887" sideWeight="0.44856277" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33878887" sideWeight="0.5514372" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17776097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -582,87 +556,202 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/file.txt">
+    <entry file="file://$PROJECT_DIR$/src/models/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CarShop/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="116" column="28" lean-forward="false" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CarShop/StoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_121/src.zip!/java/util/HashSet.java">
+    <entry file="file://$PROJECT_DIR$/src/datamanager/DataManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="89" column="16" lean-forward="true" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
+        <state relative-caret-position="119">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datamanager/DataManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/src/datamanager/PairForMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_121/src.zip!/java/util/AbstractSet.java">
+    <entry file="file://$PROJECT_DIR$/src/models/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="52" column="17" lean-forward="false" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_121/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        <state relative-caret-position="119">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="408">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CarShop/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="116" column="28" lean-forward="false" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
-            <element signature="e#1583#1584#0" expanded="true" />
-            <element signature="e#1610#1611#0" expanded="true" />
-            <element signature="e#1636#1637#0" expanded="true" />
-            <element signature="e#1671#1672#0" expanded="true" />
-            <element signature="e#1701#1702#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1823#1824#0" expanded="true" />
-            <element signature="e#1869#1870#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_121/src.zip!/java/util/Map.java">
+    <entry file="file://$PROJECT_DIR$/src/CarShop/StoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="359" column="23" lean-forward="true" selection-start-line="359" selection-start-column="8" selection-end-line="359" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="1428">
+          <caret line="84" column="24" lean-forward="false" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
+        <state relative-caret-position="255">
           <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datamanager/DataManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/datamanager/PairForMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <element signature="e#230#231#0" expanded="false" />
+            <element signature="e#258#259#0" expanded="false" />
+            <element signature="e#301#302#0" expanded="false" />
+            <element signature="e#346#347#0" expanded="false" />
+            <element signature="e#783#784#0" expanded="false" />
+            <element signature="e#817#818#0" expanded="false" />
+            <element signature="e#849#850#0" expanded="false" />
+            <element signature="e#877#878#0" expanded="false" />
+            <element signature="e#919#920#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
+            <element signature="e#986#987#0" expanded="false" />
+            <element signature="e#1015#1016#0" expanded="false" />
+            <element signature="e#1059#1060#0" expanded="false" />
+            <element signature="e#1095#1096#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CarShop/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file.txt" />
+    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_121/src.zip!/java/util/HashSet.java" />
+    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_121/src.zip!/java/util/AbstractSet.java" />
+    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_121/src.zip!/java/util/AbstractCollection.java" />
+    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_121/src.zip!/java/util/Map.java" />
     <entry file="file://$PROJECT_DIR$/fileClients.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -670,7 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,83 +766,131 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="119">
           <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
           <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="false" />
+            <element signature="e#258#259#0" expanded="false" />
+            <element signature="e#301#302#0" expanded="false" />
+            <element signature="e#346#347#0" expanded="false" />
+            <element signature="e#783#784#0" expanded="false" />
+            <element signature="e#817#818#0" expanded="false" />
+            <element signature="e#849#850#0" expanded="false" />
+            <element signature="e#877#878#0" expanded="false" />
+            <element signature="e#919#920#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
+            <element signature="e#986#987#0" expanded="false" />
+            <element signature="e#1015#1016#0" expanded="false" />
+            <element signature="e#1059#1060#0" expanded="false" />
+            <element signature="e#1095#1096#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/datamanager/SerializableEntry.java">
+    <entry file="file://$PROJECT_DIR$/src/datamanager/SerializableEntry.java" />
+    <entry file="file://$PROJECT_DIR$/src/models/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="119">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/src/datamanager/DataManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CarShop/CarNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CarShop/StoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="78" column="19" lean-forward="false" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datamanager/PairForMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="129">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/models/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding>
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="316">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="118" column="28" lean-forward="false" selection-start-line="118" selection-start-column="25" selection-end-line="118" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileName">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CarShop/Store.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        <state relative-caret-position="176">
+          <caret line="24" column="66" lean-forward="true" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -763,13 +899,143 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datamanager/DataManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+        <state relative-caret-position="17">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logger/MyLogLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logger/MyAppender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="121" column="33" lean-forward="true" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1506#1507#0" expanded="true" />
+            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1645#1646#0" expanded="true" />
+            <element signature="e#1683#1684#0" expanded="true" />
+            <element signature="e#1717#1718#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+            <element signature="e#1817#1818#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Lession03</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mail-1.4.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

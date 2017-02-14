@@ -1,12 +1,13 @@
 package CarShop;
 
-import com.sun.org.apache.xpath.internal.operations.Or;
 import datamanager.DataManager;
 import models.Car;
 import models.Client;
 import models.Order;
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 
-import java.io.Serializable;
 import java.util.*;
 
 /**
@@ -19,7 +20,10 @@ public class Store {
     private static final String FILE_CONTRACTS = "fileContracts.txt";
     private static final String FILE_CARS = "fileCars.txt";
     private static final String FILE_CLIENTS = "fileClients.txt";
-
+    private static Logger logger = Logger.getLogger(Store.class);
+    static {
+        PropertyConfigurator.configure("src/resources/log4j.xml");
+    }
 
     public void createCar(int price, String model,
                           String regNumber){
@@ -65,7 +69,7 @@ public class Store {
     public void sellCar(String model,
                         String firstName,
                         String lastName,
-                        String phoneNumber){
+                        String phoneNumber) throws CarNotFoundException {
         Client client = new Client(firstName,
                 lastName, phoneNumber);
         clients.add(client);
@@ -89,20 +93,32 @@ public class Store {
         }
         else{
             System.out.println("Car not found");
+            CarNotFoundException carNotFoundException = new CarNotFoundException();
+            logger.error("Car " + model + " not found " , carNotFoundException);
         }
     }
 
-    public void getOrders(){
+    public List<Order> getOrders(){
+        List<Order> orders = new ArrayList<>();
         for (Order order :
                 contractList.keySet()) {
             System.out.println(order.toString());
+            orders.add(order);
         }
+        return orders;
     }
 
-    public void getFreeCars(){
+    public List<Car> getFreeCars(){
+        List<Car> cars = new ArrayList<>();
         for (Car car:
                 cars){
             System.out.println(car.getModel());
+            cars.add(car);
         }
+        return cars;
+    }
+
+    public Map<Order, Client> getContractList() {
+        return contractList;
     }
 }
